@@ -1,12 +1,12 @@
 import { NgModule } from '@angular/core';
-import { MiaLoadingComponent } from './mia-loading.component';
+import { SquaresComponent } from './components/squares/squares.component';
 
 
 
 @NgModule({
-  declarations: [MiaLoadingComponent],
+  declarations: [SquaresComponent],
   imports: [
   ],
-  exports: [MiaLoadingComponent]
+  exports: [SquaresComponent]
 })
 export class MiaLoadingModule { }
