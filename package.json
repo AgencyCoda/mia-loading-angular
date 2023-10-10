@@ -7,7 +7,7 @@
     "build": "ng build",
     "test": "ng test",
     "lint": "ng lint",
-    "build2": "ng build --configuration production && cd dist/agencycoda/mia-loading/ && npm publish",
+    "build2": "ng build --project @agencycoda/mia-loading --configuration production && cd dist/agencycoda/mia-loading/ && npm publish",
     "e2e": "ng e2e"
   },
   "private": true,
